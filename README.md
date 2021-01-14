@@ -1,3 +1,3 @@
 # Hops release automation tests
 
-1
+2
