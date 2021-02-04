@@ -6,6 +6,6 @@
   "author": "ZauberNerd <zaubernerd@zaubernerd.de>",
   "license": "MIT",
   "dependencies": {
-    "package-json": "4.0.1"
+    "package-json": "5.0.0"
   }
 }
