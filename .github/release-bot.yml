@@ -1,10 +1,10 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-Bo9D0D': 'v12'
+  'v13.x-Bo9D0D': 'latest'
+  'master-Bo9D0D': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-Bo9D0D'
+  ':package: v13': 'v13.x-Bo9D0D'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
