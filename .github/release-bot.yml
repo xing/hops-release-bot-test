@@ -1,10 +1,10 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-m3VIEG': 'v12'
+  'v13.x-m3VIEG': 'latest'
+  'master-m3VIEG': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-m3VIEG'
+  ':package: v13': 'v13.x-m3VIEG'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
