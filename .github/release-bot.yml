@@ -1,10 +1,10 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-AFKoR1': 'v12'
+  'v13.x-AFKoR1': 'latest'
+  'master-AFKoR1': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-AFKoR1'
+  ':package: v13': 'v13.x-AFKoR1'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
