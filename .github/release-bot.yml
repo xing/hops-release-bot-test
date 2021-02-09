@@ -1,10 +1,10 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-fp4-Ah': 'v12'
+  'v13.x-fp4-Ah': 'latest'
+  'master-fp4-Ah': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-fp4-Ah'
+  ':package: v13': 'v13.x-fp4-Ah'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
