@@ -1,10 +1,10 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-VLSFHP': 'v12'
+  'v13.x-VLSFHP': 'latest'
+  'master-VLSFHP': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-VLSFHP'
+  ':package: v13': 'v13.x-VLSFHP'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
