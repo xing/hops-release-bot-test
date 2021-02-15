@@ -1,10 +1,13 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-pf0Gs_': 'v12'
+  'v13.x-pf0Gs_': 'latest'
+  'master-pf0Gs_': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-pf0Gs_'
+  ':package: v13': 'v13.x-pf0Gs_'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
+
+
+default-branch: "master-pf0Gs_"
