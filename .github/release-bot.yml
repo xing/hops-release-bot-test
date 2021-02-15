@@ -1,10 +1,13 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-fcyaZD': 'v12'
+  'v13.x-fcyaZD': 'latest'
+  'master-fcyaZD': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-fcyaZD'
+  ':package: v13': 'v13.x-fcyaZD'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
+
+
+default-branch: "master-fcyaZD"
