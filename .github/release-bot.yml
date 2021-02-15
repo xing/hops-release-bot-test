@@ -1,10 +1,13 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-rA1KSW': 'v12'
+  'v13.x-rA1KSW': 'latest'
+  'master-rA1KSW': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-rA1KSW'
+  ':package: v13': 'v13.x-rA1KSW'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
+
+
+default-branch: "master-rA1KSW"
