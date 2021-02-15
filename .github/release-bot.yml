@@ -1,10 +1,13 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-gTo6iM': 'v12'
+  'v13.x-gTo6iM': 'latest'
+  'master-gTo6iM': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-gTo6iM'
+  ':package: v13': 'v13.x-gTo6iM'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
+
+
+default-branch: "master-gTo6iM"
