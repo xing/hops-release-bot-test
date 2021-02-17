@@ -1,10 +1,13 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-Md2DAh': 'v12'
+  'v13.x-Md2DAh': 'latest'
+  'master-Md2DAh': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-Md2DAh'
+  ':package: v13': 'v13.x-Md2DAh'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
+
+
+default-branch: "master-Md2DAh"
