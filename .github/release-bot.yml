@@ -1,10 +1,13 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-bE6PaW': 'v12'
+  'v13.x-bE6PaW': 'latest'
+  'master-bE6PaW': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-bE6PaW'
+  ':package: v13': 'v13.x-bE6PaW'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
+
+
+default-branch: "master-bE6PaW"
