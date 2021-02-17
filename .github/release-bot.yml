@@ -1,10 +1,13 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-P1wZAV': 'v12'
+  'v13.x-P1wZAV': 'latest'
+  'master-P1wZAV': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-P1wZAV'
+  ':package: v13': 'v13.x-P1wZAV'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
+
+
+default-branch: "master-P1wZAV"
