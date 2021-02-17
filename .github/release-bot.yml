@@ -1,10 +1,13 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-GT49Kf': 'v12'
+  'v13.x-GT49Kf': 'latest'
+  'master-GT49Kf': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-GT49Kf'
+  ':package: v13': 'v13.x-GT49Kf'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
+
+
+default-branch: "master-GT49Kf"
