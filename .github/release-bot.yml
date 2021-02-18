@@ -1,10 +1,13 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-RvnSUh': 'v12'
+  'v13.x-RvnSUh': 'latest'
+  'master-RvnSUh': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-RvnSUh'
+  ':package: v13': 'v13.x-RvnSUh'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
+
+
+default-branch: "master-RvnSUh"
