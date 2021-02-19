@@ -1,6 +1,6 @@
 {
   "name": "hops-release-bot-test",
-  "version": "14.0.0-alpha.0",
+  "version": "14.0.0",
   "main": "index.js",
   "repository": "git@github.com:xing/hops-release-bot-test.git",
   "author": "ZauberNerd <zaubernerd@zaubernerd.de>",
