@@ -1,12 +1,15 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-a2_ZrM': 'v12'
+  'v13.x-a2_ZrM': 'latest'
+  'master-a2_ZrM': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-a2_ZrM'
+  ':package: v13': 'v13.x-a2_ZrM'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
+
+
+default-branch: "master-a2_ZrM"
