@@ -1,12 +1,15 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-yoc0Rp': 'v12'
+  'v13.x-yoc0Rp': 'latest'
+  'master-yoc0Rp': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-yoc0Rp'
+  ':package: v13': 'v13.x-yoc0Rp'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
+
+
+default-branch: "master-yoc0Rp"
