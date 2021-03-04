@@ -1,12 +1,15 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-cbS5Xt': 'v12'
+  'v13.x-cbS5Xt': 'latest'
+  'master-cbS5Xt': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-cbS5Xt'
+  ':package: v13': 'v13.x-cbS5Xt'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
+
+
+default-branch: "master-cbS5Xt"
