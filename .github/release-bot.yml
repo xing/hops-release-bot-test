@@ -1,12 +1,15 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-RSs3Cr': 'v12'
+  'v13.x-RSs3Cr': 'latest'
+  'master-RSs3Cr': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-RSs3Cr'
+  ':package: v13': 'v13.x-RSs3Cr'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
+
+
+default-branch: "master-RSs3Cr"
