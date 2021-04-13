@@ -1,12 +1,15 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-PzA7Wp': 'v12'
+  'v13.x-PzA7Wp': 'latest'
+  'master-PzA7Wp': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-PzA7Wp'
+  ':package: v13': 'v13.x-PzA7Wp'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
+
+
+default-branch: "master-PzA7Wp"
