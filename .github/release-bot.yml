@@ -1,12 +1,15 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-tOS-Yu': 'v12'
+  'v13.x-tOS-Yu': 'latest'
+  'master-tOS-Yu': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-tOS-Yu'
+  ':package: v13': 'v13.x-tOS-Yu'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
+
+
+default-branch: "master-tOS-Yu"
