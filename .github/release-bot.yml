@@ -1,12 +1,15 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-XA7Wjd': 'v12'
+  'v13.x-XA7Wjd': 'latest'
+  'master-XA7Wjd': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-XA7Wjd'
+  ':package: v13': 'v13.x-XA7Wjd'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
+
+
+default-branch: "master-XA7Wjd"
