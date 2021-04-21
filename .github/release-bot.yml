@@ -1,12 +1,15 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-fcWQ-P': 'v12'
+  'v13.x-fcWQ-P': 'latest'
+  'master-fcWQ-P': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-fcWQ-P'
+  ':package: v13': 'v13.x-fcWQ-P'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
+
+
+default-branch: "master-fcWQ-P"
