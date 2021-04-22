@@ -1,12 +1,15 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-pGpQ-Y': 'v12'
+  'v13.x-pGpQ-Y': 'latest'
+  'master-pGpQ-Y': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-pGpQ-Y'
+  ':package: v13': 'v13.x-pGpQ-Y'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
+
+
+default-branch: "master-pGpQ-Y"
