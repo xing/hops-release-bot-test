@@ -1,12 +1,15 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-TIZ4Vk': 'v12'
+  'v13.x-TIZ4Vk': 'latest'
+  'master-TIZ4Vk': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-TIZ4Vk'
+  ':package: v13': 'v13.x-TIZ4Vk'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
+
+
+default-branch: "master-TIZ4Vk"
