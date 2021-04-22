@@ -1,12 +1,15 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-j2J7Kb': 'v12'
+  'v13.x-j2J7Kb': 'latest'
+  'master-j2J7Kb': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-j2J7Kb'
+  ':package: v13': 'v13.x-j2J7Kb'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
+
+
+default-branch: "master-j2J7Kb"
