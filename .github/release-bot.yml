@@ -1,12 +1,15 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-YQ_fsm': 'v12'
+  'v13.x-YQ_fsm': 'latest'
+  'master-YQ_fsm': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-YQ_fsm'
+  ':package: v13': 'v13.x-YQ_fsm'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
+
+
+default-branch: "master-YQ_fsm"
