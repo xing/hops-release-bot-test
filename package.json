@@ -6,7 +6,8 @@
   "author": "ZauberNerd <zaubernerd@zaubernerd.de>",
   "license": "MIT",
   "scripts": {
-    "release:prepare": "echo 1 > release-ready && git add release-ready && git commit -m \"chore: prepare release\""
+    "release:prepare": "echo 1 > release-ready && git add release-ready && git commit -m \"chore: prepare release\"",
+    "release:rollback": "git reset --hard HEAD^"
   },
   "dependencies": {
     "latest-version": "^5.1.0",
