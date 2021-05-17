@@ -1,14 +1,14 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'h2i8O-v12.x': 'v12'
+  'h2i8O-v13.x': 'latest'
+  'h2i8O-master': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'h2i8O-v12.x'
+  ':package: v13': 'h2i8O-v13.x'
 
-release-pr-branch-pattern: 'release-bot/next-%s'
+release-pr-branch-pattern: 'release-bot-next-%s'
 
 prepare-release-command: 'yarn release:prepare'
 
-rollback-release-command: 'yarn release:rollback'
+default-branch: "h2i8O-master"
