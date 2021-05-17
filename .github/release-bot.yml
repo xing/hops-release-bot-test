@@ -1,14 +1,14 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'cd1nh-v12.x': 'v12'
+  'cd1nh-v13.x': 'latest'
+  'cd1nh-master': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'cd1nh-v12.x'
+  ':package: v13': 'cd1nh-v13.x'
 
-release-pr-branch-pattern: 'release-bot/next-%s'
+release-pr-branch-pattern: 'release-bot-next-%s'
 
 prepare-release-command: 'yarn release:prepare'
 
-rollback-release-command: 'yarn release:rollback'
+default-branch: "cd1nh-master"
