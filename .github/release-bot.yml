@@ -1,14 +1,17 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-ylL0nD': 'v12'
+  'v13.x-ylL0nD': 'latest'
+  'master-ylL0nD': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-ylL0nD'
+  ':package: v13': 'v13.x-ylL0nD'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
 
 rollback-release-command: 'yarn release:rollback'
+
+
+default-branch: "master-ylL0nD"
