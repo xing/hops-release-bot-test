@@ -1,10 +1,10 @@
 dist-tags:
-  'v12.x': 'v12'
+  'v12.x-AoJm8d': 'v12'
   'v13.x': 'latest'
-  'master': 'next'
+  'master-AoJm8d': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
+  ':package: v12': 'v12.x-AoJm8d'
   ':package: v13': 'v13.x'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
@@ -12,3 +12,6 @@ release-pr-branch-pattern: 'release-bot/next-%s'
 prepare-release-command: 'yarn release:prepare'
 
 rollback-release-command: 'yarn release:rollback'
+
+
+default-branch: "master-AoJm8d"
