@@ -1,10 +1,10 @@
 dist-tags:
-  'v12.x': 'v12'
+  'v12.x-f1QZ5b': 'v12'
   'v13.x': 'latest'
-  'master': 'next'
+  'master-f1QZ5b': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
+  ':package: v12': 'v12.x-f1QZ5b'
   ':package: v13': 'v13.x'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
@@ -12,3 +12,6 @@ release-pr-branch-pattern: 'release-bot/next-%s'
 prepare-release-command: 'yarn release:prepare'
 
 rollback-release-command: 'yarn release:rollback'
+
+
+default-branch: "master-f1QZ5b"
