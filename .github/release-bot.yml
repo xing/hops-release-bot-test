@@ -1,10 +1,10 @@
 dist-tags:
-  'v12.x': 'v12'
+  'v12.x-IZnL4i': 'v12'
   'v13.x': 'latest'
-  'master': 'next'
+  'master-IZnL4i': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
+  ':package: v12': 'v12.x-IZnL4i'
   ':package: v13': 'v13.x'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
@@ -12,3 +12,6 @@ release-pr-branch-pattern: 'release-bot/next-%s'
 prepare-release-command: 'yarn release:prepare'
 
 rollback-release-command: 'yarn release:rollback'
+
+
+default-branch: "master-IZnL4i"
