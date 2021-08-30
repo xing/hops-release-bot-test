@@ -1,14 +1,17 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-OikmpY': 'v12'
+  'v13.x-OikmpY': 'latest'
+  'master-OikmpY': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-OikmpY'
+  ':package: v13': 'v13.x-OikmpY'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
 
 rollback-release-command: 'yarn release:rollback'
+
+
+default-branch: "master-OikmpY"
