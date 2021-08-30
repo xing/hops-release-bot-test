@@ -1,14 +1,17 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-SYaTmu': 'v12'
+  'v13.x-SYaTmu': 'latest'
+  'master-SYaTmu': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-SYaTmu'
+  ':package: v13': 'v13.x-SYaTmu'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
 
 rollback-release-command: 'yarn release:rollback'
+
+
+default-branch: "master-SYaTmu"
