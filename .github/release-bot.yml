@@ -1,14 +1,17 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-ZfA-oe': 'v12'
+  'v13.x-ZfA-oe': 'latest'
+  'master-ZfA-oe': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-ZfA-oe'
+  ':package: v13': 'v13.x-ZfA-oe'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
 
 rollback-release-command: 'yarn release:rollback'
+
+
+default-branch: "master-ZfA-oe"
