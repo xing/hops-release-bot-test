@@ -1,14 +1,17 @@
 dist-tags:
-  'v12.x': 'v12'
-  'v13.x': 'latest'
-  'master': 'next'
+  'v12.x-xQSSVp': 'v12'
+  'v13.x-xQSSVp': 'latest'
+  'master-xQSSVp': 'next'
 
 labels:
-  ':package: v12': 'v12.x'
-  ':package: v13': 'v13.x'
+  ':package: v12': 'v12.x-xQSSVp'
+  ':package: v13': 'v13.x-xQSSVp'
 
 release-pr-branch-pattern: 'release-bot/next-%s'
 
 prepare-release-command: 'yarn release:prepare'
 
 rollback-release-command: 'yarn release:rollback'
+
+
+default-branch: "master-xQSSVp"
